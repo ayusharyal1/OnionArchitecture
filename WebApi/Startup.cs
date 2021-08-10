@@ -25,7 +25,7 @@ namespace WebApi
             #region Swagger
             services.AddSwaggerGen(c =>
             {
-                c.IncludeXmlComments(string.Format(@"{0}\OnionArchitecture.xml", System.AppDomain.CurrentDomain.BaseDirectory));
+                c.IncludeXmlComments(string.Format(@"OnionArchitecture.xml", System.AppDomain.CurrentDomain.BaseDirectory));
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
