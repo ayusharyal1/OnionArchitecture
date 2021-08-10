@@ -12,7 +12,9 @@ Install Docker Desktop to test and run docker images locally.
 
 # Docker commands for building and running the image.
 cmd> cd <path\to\project\folder>
+
 cmd> docker build -f .\WebApi\Dockerfile -t test-onion .
+
 cmd> docker run -d -p 8080:80 --name test-onion-app-3 test-onion
 
 
